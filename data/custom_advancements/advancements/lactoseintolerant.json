@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "pufferfish"
+		},
+		"title": {
+			"text": "Lactose Intolerant"
+		},
+		"description": {
+			"text": "Eat a Pufferfish and avoid drinking milk until the effects run out"
+		},
+		"frame": "challenge",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"milk": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "custom_advancements:rabbitstew"
+}

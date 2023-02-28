@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cobblestone_stairs"
+		},
+		"title": {
+			"text": "Down to Bedrock"
+		},
+		"description": {
+			"text": "Make use of cobblestone stairs for a productive mining session"
+		},
+		"frame": "task",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"stairs": {
+			"trigger": "impossible"
+		}
+	},
+	"parent": "custom_advancements:survival"
+}

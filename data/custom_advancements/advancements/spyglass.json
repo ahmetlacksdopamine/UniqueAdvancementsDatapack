@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spyglass"
+		},
+		"title": {
+			"text": "Optifine? More like Opti-awful!"
+		},
+		"description": {
+			"text": "Craft a Spyglass"
+		},
+		"frame": "goal",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "custom_advancements:root"
+}

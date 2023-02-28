@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:potion",
+			"nbt": "{Potion:\"minecraft:long_invisibility\"}"
+		},
+		"title": {
+			"text": "A Little Bit of Trolling"
+		},
+		"description": {
+			"text": "Brew an Invisibility Potion"
+		},
+		"frame": "goal",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"invis": {
+			"trigger": "minecraft:brewed_potion",
+			"conditions": {
+				"potion": "invisibility"
+			}
+		}
+	},
+	"parent": "custom_advancements:spyglass"
+}

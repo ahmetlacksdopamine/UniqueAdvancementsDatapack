@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:elytra"
+		},
+		"title": {
+			"text": "Fly High"
+		},
+		"description": {
+			"text": "Fall to your death near an endcity by forgetting to put on your Elytra"
+		},
+		"frame": "challenge",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"fall": {
+			"trigger": "impossible"
+		}
+	},
+	"parent": "custom_advancements:lactoseintolerant"
+}

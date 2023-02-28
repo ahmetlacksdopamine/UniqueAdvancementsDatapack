@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "note_block"
+		},
+		"title": {
+			"text": "ITMG"
+		},
+		"description": {
+			"text": "Play a note using a noteblock"
+		},
+		"frame": "task",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"play": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "custom_advancements:survival"
+}

@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_door"
+		},
+		"title": {
+			"text": "Build a House"
+		},
+		"description": {
+			"text": "Put down a crafting table, a furnace, a chest and a door"
+		},
+		"frame": "task",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"home": {
+			"trigger": "impossible"
+		}
+	},
+	"parent": "custom_advancements:survival"
+}

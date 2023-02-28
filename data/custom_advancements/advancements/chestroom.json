@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chest"
+		},
+		"title": {
+			"text": "Getting Organized"
+		},
+		"description": {
+			"text": "Make a chest room"
+		},
+		"frame": "task",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"chest": {
+			"trigger": "impossible"
+		}
+	},
+	"parent": "custom_advancements:mines"
+}

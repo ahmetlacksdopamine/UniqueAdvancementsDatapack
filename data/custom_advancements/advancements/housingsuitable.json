@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_stairs"
+		},
+		"title": {
+			"text": "This housing is suitable."
+		},
+		"description": {
+			"text": "Make a table using 2 wooden stairs, a fence and a pressure plate"
+		},
+		"frame": "goal",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": true
+	},
+	"criteria": {
+		"home": {
+			"trigger": "impossible"
+		}
+	},
+	"parent": "custom_advancements:buildahouse"
+}

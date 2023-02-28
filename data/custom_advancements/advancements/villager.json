@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:villager_spawn_egg"
+		},
+		"title": {
+			"text": "Human Trafficking"
+		},
+		"description": {
+			"text": "Put a Villager in a boat"
+		},
+		"frame": "task",
+		"announce_to_chat": false,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"boat": {
+			"trigger": "impossible"
+		}
+	},
+	"parent": "custom_advancements:survival"
+}

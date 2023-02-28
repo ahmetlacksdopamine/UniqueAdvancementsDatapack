@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spawner"
+		},
+		"title": {
+			"text": "Build a Mob Farm"
+		},
+		"description": {
+			"text": "Start building a mob farm"
+		},
+		"frame": "goal",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"farm": {
+			"trigger": "impossible"
+		}
+	},
+	"parent": "custom_advancements:survival"
+}

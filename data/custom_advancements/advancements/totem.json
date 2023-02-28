@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "totem_of_undying"
+		},
+		"title": {
+			"text": "you stupid fr"
+		},
+		"description": {
+			"text": "Die with a Totem of Undying in your inventory"
+		},
+		"frame": "goal",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"death": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "custom_advancements:invisibilitypotion"
+}

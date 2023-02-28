@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spawner"
+		},
+		"title": {
+			"text": "If I can't have it, nobody can!"
+		},
+		"description": {
+			"text": "Attempt to break a Mob Spawner"
+		},
+		"frame": "goal",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"break": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "custom_advancements:totem"
+}

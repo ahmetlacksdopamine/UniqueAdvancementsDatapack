@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:rabbit_stew"
+		},
+		"title": {
+			"text": "Was it worth it?"
+		},
+		"description": {
+			"text": "Craft Rabbit Stew"
+		},
+		"frame": "challenge",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"craft": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "custom_advancements:root"
+}

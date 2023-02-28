@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:creeper_head"
+		},
+		"title": {
+			"text": "The Classic"
+		},
+		"description": {
+			"text": "Die to a Creeper or TNT in a Desert Temple"
+		},
+		"frame": "task",
+		"announce_to_chat": true,
+		"show_toast": true,
+		"hidden": false
+	},
+	"criteria": {
+		"death": {
+			"trigger": "impossible"
+		}
+	},
+	"parent": "custom_advancements:root"
+}
